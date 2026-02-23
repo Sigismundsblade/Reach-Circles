@@ -52,4 +52,4 @@ The mod includes configurable options that allow you to:
 
 Inspired by the original concept by Viboten.\
 This project was fully rewritten and independently developed from
-scratch to support newer Minecraft versions.
+scratch to support different Minecraft versions.
