@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "reach",
+  "version": "${version}",
+  "name": "Reach Circle",
+  "description": "Shows each player's reach as a circle in world space.",
+  "icon": "assets/reach/icon.png",
+  "authors": [
+    "northbladetech.dev"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.northbladetech.reach.ReachModClient"
+    ],
+    "modmenu": [
+      "dev.northbladetech.reach.client.ReachModMenu"
+    ]
+  },
+  "mixins": [
+    "reach.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.5"
+  }
+}
